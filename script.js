@@ -4,7 +4,7 @@ let wood1cap = document.getElementById("wood1cap");
 let endPath = document.getElementById("endPath");
 let centeredContent = document.querySelector(".centered-content");
 let count = 0;
-forests = ["images/forest1.jpg", "images/forest2.jpg", "images/forest3.jpg"];
+forests = ["Images/forest1.jpg", "Images/forest2.jpg", "Images/forest3.jpg"];
 text = ["Beautiful forest", "The path is getting darker and darker.", "Jurney is almost over."];
 
 
