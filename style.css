@@ -1,0 +1,48 @@
+/* base reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* center content wrapper */
+.centered-content {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+/* keep the image a fixed width to avoid layout shifts */
+.centered-content img {
+    width: 300px;      /* choose appropriate width */
+    max-width: 90%;    /* responsive fallback */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* utility class per request */
+.hiden {
+    display: none;
+}
+
+/* button styling */
+button {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    border: 2px solid #006400;
+    background-color: #008000;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+button:hover:not(:disabled) {
+    background-color: #006400;
+}
+
+button:disabled {
+    background-color: #ccc;
+    border-color: #999;
+    color: #666;
+    cursor: default;
+}
